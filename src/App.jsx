@@ -1,8 +1,14 @@
+import MovieInput from "./components/MovieInput";
+import MovieList from "./components/MovieList";
+
 function App() {
   return (
-    <div>
-      <h1 className="text-5xl">Hello</h1>
-    </div>
+    <main className="min-h-screen grid place-content-center bg-neutral-50 text-center">
+      <div className="space-y-5 max-w-[500px]">
+        <MovieInput />
+        <MovieList />
+      </div>
+    </main>
   );
 }
 
